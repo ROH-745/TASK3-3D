@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+// import App from './App.jsx'
 import './index.css'
-// import Second from './Second.jsx'
+import Second from './Second.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <Second/> */}
-    <App />
+    <Second/>
+    {/* <App /> */}
    
   </React.StrictMode>,
 )
